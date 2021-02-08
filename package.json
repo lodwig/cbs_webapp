@@ -1,0 +1,23 @@
+{
+	"name": "cbswebapp",
+	"description": "Web app for CBS-Official",
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {
+		"google-auth-library": "^6.1.6",
+		"googleapis": "^67.0.0",
+		"total.js": "^3.4.7",
+		"total4": "0.0.35",
+		"unirest": "^0.6.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cbs",
+		"official",
+		"cbs-official"
+	],
+	"author": "Hengki Lodwig",
+	"license": "MIT"
+}

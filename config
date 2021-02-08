@@ -1,0 +1,8 @@
+name                            : CBS
+base_url                        : http://localhost:8000
+yt_api_key      : AIzaSyCGX71YtR8OyjzY6XIFyqkG_B94QhveUJM
+oauth           : 485194816490-glnj9qs3uorlfep1jugmjaq3qcda7v0q.apps.googleusercontent.com
+client_secret   : JX7oUfSYPU4dLobCRCOIob7U
+app_path        : /home/pi/tutorial/cbs_webapp
+// Total.js API services:
+// totalapi                      : YOUR TOKEN

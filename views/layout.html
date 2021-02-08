@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="width=1024, user-scalable=yes" />
+	<meta name="robots" content="all,follow" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href='@{CONF.base_url}/css/default.css'/>
+
+</head>
+<body>
+
+	<!-- RENDER HEADER -->
+	@{section('menu')}
+	@{place('header')}
+	<div class="container-background">@{body}</div>
+	<!-- RENDER CONTENT -->
+	
+	<!-- RENDER SECTION -->
+	@{section('footer')}
+	@{place('scripts')}
+</body>
+</html>
