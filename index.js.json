@@ -1,5 +1,5 @@
 {
-	"pid": 1796,
+	"pid": 5129,
 	"port": 8000,
 	"ip": "0.0.0.0",
 	"stats": [
@@ -10,32 +10,33 @@
 				"total": "4.0.0",
 				"app": "1.0.0"
 			},
-			"pid": 1796,
+			"pid": 5129,
 			"thread": "",
 			"mode": "debug",
 			"overload": 0,
-			"date": "2021-03-07T05:55:56.199Z",
-			"memory": 26.8,
-			"rm": 1,
-			"fm": 2,
+			"date": "2021-03-07T11:29:40.327Z",
+			"memory": 12.46,
+			"rm": 0,
+			"fm": 0,
 			"wm": 0,
 			"em": 0,
 			"mm": 0,
-			"om": 7,
+			"om": 0,
 			"dm": 0,
-			"um": 0.001,
+			"um": 0,
 			"dbrm": 0,
 			"dbwm": 0,
 			"usage": 0,
-			"requests": 6,
+			"requests": 13,
 			"pending": 0,
 			"external": 0,
-			"errors": 0,
+			"errors": 1,
 			"timeouts": 0,
 			"online": 0,
-			"uptime": 3,
+			"uptime": 12,
 			"download": 0,
-			"upload": 0.002
+			"upload": 0.005,
+			"lasterror": "2021-03-07T11:18:47.536Z default - Error: View \"index\": conole.log(m) - Line: 0 - conole is not defined\n    at ControllerProto.$viewrender (/home/pi/tutorial/cbs_webapp/node_modules/total4/index.js:13165:9)\n    at ControllerProto.view (/home/pi/tutorial/cbs_webapp/node_modules/total4/index.js:13093:14)\n    at generateResData.then (/home/pi/tutorial/cbs_webapp/controllers/default.js:10:8)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
 		}
 	]
 }

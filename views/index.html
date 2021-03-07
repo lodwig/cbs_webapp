@@ -6,20 +6,28 @@
 
 
 @{section menu}
-
+<div>
+	<nav><a href="@{CONF.base_url}">HOME</a><a href="@{CONF.base_url}/playlist">PLAYLIST</a></nav>
+</div>
 @{end}
 
 
 
 <div class="container">
-	<h1>@{model.resData.snippet.title}</h1>
-	<pre>@{model.resData.snippet.description}</pre>
-	<img src="@{model.resData.snippet.thumbnails.default.url}" 
-	alt="@{model.resData.snippet.thumbnails.default.url}"/>
+	<h1>@{model.resData.dataChannel.snippet.title}</h1>
+	<pre>@{model.resData.dataChannel.snippet.description}</pre>
+	<img src="@{model.resData.dataChannel.snippet.thumbnails.default.url}" 
+	alt="@{model.resData.dataChannel.snippet.thumbnails.default.url}"/>
 </div>
 
 
-
+<div class="container">
+	<ul style="white-space:nowrap;">
+		@{foreach m in model.resData.dataVideo}
+		<li style="display: inline;">| @{m.snippet.title} | </li>
+		@{end}
+	</ul>
+</div>
 <!-- FRAMEWORK ADDS SCRIPT TAG AUTOMATICALLY (according to the file extension) -->
 @{place('scripts', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', '//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js')}
 
