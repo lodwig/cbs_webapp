@@ -1,5 +1,5 @@
 {
-	"pid": 5961,
+	"pid": 1796,
 	"port": 8000,
 	"ip": "0.0.0.0",
 	"stats": [
@@ -10,32 +10,32 @@
 				"total": "4.0.0",
 				"app": "1.0.0"
 			},
-			"pid": 5961,
+			"pid": 1796,
 			"thread": "",
 			"mode": "debug",
 			"overload": 0,
-			"date": "2021-02-07T04:10:32.391Z",
-			"memory": 26.91,
-			"rm": 0,
-			"fm": 0,
+			"date": "2021-03-07T05:55:56.199Z",
+			"memory": 26.8,
+			"rm": 1,
+			"fm": 2,
 			"wm": 0,
 			"em": 0,
 			"mm": 0,
-			"om": 0,
+			"om": 7,
 			"dm": 0,
-			"um": 0,
+			"um": 0.001,
 			"dbrm": 0,
 			"dbwm": 0,
 			"usage": 0,
-			"requests": 5,
+			"requests": 6,
 			"pending": 0,
 			"external": 0,
 			"errors": 0,
 			"timeouts": 0,
 			"online": 0,
-			"uptime": 22,
+			"uptime": 3,
 			"download": 0,
-			"upload": 0.001
+			"upload": 0.002
 		}
 	]
 }
